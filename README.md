@@ -123,24 +123,24 @@ Get-SystemInformation
 
   
 
-## 📁 Structure du Projet
+##  Structure du Projet
 
 ```
 Windows-Security-Audit-Tool/
-├── 📜 main-audit.ps1              # Script principal avec menu interactif (v3.0)
-├── 📜 audit-complet.ps1           # Script d'audit complet automatique
-├── 📁 modules/                    # Modules d'audit spécialisés
-│   ├── 🔧 SystemAudit.ps1        # Audit système et matériel
-│   ├── 👥 AccountAudit.ps1       # Audit comptes et politiques
-│   ├── 🌐 NetworkAudit.ps1       # Audit ports et réseau
-│   ├── 📜 Reporting.ps1        # Module de génération de rapports
-│   └── 🛡️ DefenderAudit.ps1     # Audit Windows Defender
-├── 📁 reports/                   # Rapports générés (auto-créé)
-│   ├── 📄 security-audit-YYYYMMDD-HHMMSS.txt
-│   └── 🌐 security-audit-YYYYMMDD-HHMMSS.html
-├── 📁 logs/                      # Logs d'exécution (auto-créé)
-└── 📁 doc/                       # Documentation
-    └── 📸 screenshots/           # Captures d'écran
+├──  main-audit.ps1              # Script principal avec menu interactif (v3.0)
+├──  audit-complet.ps1           # Script d'audit complet automatique
+├──  modules/                    # Modules d'audit spécialisés
+│   ├──  SystemAudit.ps1        # Audit système et matériel
+│   ├──  AccountAudit.ps1       # Audit comptes et politiques
+│   ├──  NetworkAudit.ps1       # Audit ports et réseau
+│   ├──  Reporting.ps1        # Module de génération de rapports
+│   └──  DefenderAudit.ps1     # Audit Windows Defender
+├──  reports/                   # Rapports générés (auto-créé)
+│   ├──  security-audit-YYYYMMDD-HHMMSS.txt
+│   └──  security-audit-YYYYMMDD-HHMMSS.html
+├──  logs/                      # Logs d'exécution (auto-créé)
+└──  doc/                       # Documentation
+    └──  screenshots/           # Captures d'écran
 ```
 
   
@@ -185,7 +185,7 @@ Your choice (1-9):
 
   
 
-#### 1. **Audit Complet** ✅
+#### 1. **Audit Complet** 
 
 Exécute les 4 audits séquentiellement avec :
 
@@ -194,7 +194,7 @@ Exécute les 4 audits séquentiellement avec :
 - Génération automatique de rapports (TXT + HTML)
 - Résumé final détaillé
 
-#### 2. **Audit Système Seul** 🔧
+#### 2. **Audit Système Seul** 
 
 Vérifications incluses :
 
@@ -204,7 +204,7 @@ Vérifications incluses :
 - Uptime du système
 - Vérification des privilèges admin
 
-#### 3. **Audit Comptes Seul** 👥
+#### 3. **Audit Comptes Seul** 
 
 Vérifications incluses :
 
@@ -213,7 +213,7 @@ Vérifications incluses :
 - État du compte "Guest"
 - Politiques d'expiration des mots de passe
 
-#### 4. **Audit Réseau Seul** 🌐
+#### 4. **Audit Réseau Seul** 
 
 Vérifications incluses :
 
@@ -223,7 +223,7 @@ Vérifications incluses :
 - Adaptateurs réseau actifs
 
 
-#### 5. **Audit Defender Seul** 🛡️
+#### 5. **Audit Defender Seul** 
 
 Vérifications incluses :
 
@@ -233,13 +233,13 @@ Vérifications incluses :
 
   
 
-#### 6. **Générer Rapport HTML** 📊
+#### 6. **Générer Rapport HTML** 
 
 *Note : Les rapports sont générés automatiquement avec l'audit complet*
 
   
 
-#### 7. **Voir Rapports Existants** 📂
+#### 7. **Voir Rapports Existants** 
 
 Liste et affiche les 10 derniers rapports générés avec :
 
@@ -249,7 +249,7 @@ Liste et affiche les 10 derniers rapports générés avec :
 
   
 
-#### 8. **Aide et Information** ❓
+#### 8. **Aide et Information** 
 
 Documentation complète sur :
 
@@ -339,7 +339,7 @@ function Get-AccountSecurityAudit {
 
   
 
-### 3. 🌐 **NetworkAudit.ps1** - Audit Réseau
+### 3. **NetworkAudit.ps1** - Audit Réseau
 
   
 
