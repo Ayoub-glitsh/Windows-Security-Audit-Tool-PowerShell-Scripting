@@ -1,108 +1,101 @@
-Excellent ! Maintenant que j'ai tous vos scripts, je vais mettre à jour le README.md pour qu'il reflète \*\*exactement\*\* votre implémentation. Je vais aussi corriger quelques éléments basés sur ce que je vois dans vos modules :
+
+
+# 🛡️ Windows Security Audit Tool
 
   
 
-\`\`\`markdown
-
-\# 🛡️ Windows Security Audit Tool
-
-  
-
-\[!\[PowerShell\](https://img.shields.io/badge/PowerShell-5.1-blue.svg)\](https://docs.microsoft.com/powershell/)
-
-\[!\[License\](https://img.shields.io/badge/License-MIT-green.svg)\](LICENSE)
-
-\[!\[Windows\](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)\](https://www.microsoft.com/windows)
-
-\[!\[Version\](https://img.shields.io/badge/Version-3.0-orange.svg)\]()
+[![PowerShell](https://img.shields.io/badge/PowerShell-5.1-blue.svg)](https://docs.microsoft.com/powershell/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Windows](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
+[![Version](https://img.shields.io/badge/Version-3.0-orange.svg)]()
 
   
 
-\*\*Outil professionnel d'audit de sécurité Windows pour portfolio cybersécurité\*\*  
+**Outil professionnel d'audit de sécurité Windows**  
 
-\*Développé par Ayoub Aguezar\*
-
-  
-
-\## 📋 Table des Matières
-
-\- \[✨ Fonctionnalités\](#-fonctionnalités)
-
-\- \[🖥️ Prérequis\](#️-prérequis)
-
-\- \[🚀 Installation Rapide\](#-installation-rapide)
-
-\- \[📁 Structure du Projet\](#-structure-du-projet)
-
-\- \[🎯 Utilisation\](#-utilisation)
-
-\- \[🔍 Détails des Modules\](#-détails-des-modules)
-
-\- \[📊 Format des Résultats\](#-format-des-résultats)
-
-\- \[🔧 Personnalisation\](#-personnalisation)
-
-\- \[🤝 Contribution\](#-contribution)
-
-\- \[📄 Licence\](#-licence)
-
-\- \[👤 Auteur\](#-auteur)
+*Développé par Ayoub Aguezar*
 
   
 
-\## ✨ Fonctionnalités
+## 📋 Table des Matières
+
+- [✨ Fonctionnalités](#-fonctionnalités)
+
+- [🖥️ Prérequis](#️-prérequis)
+
+- [🚀 Installation Rapide](#-installation-rapide)
+
+- [📁 Structure du Projet](#-structure-du-projet)
+
+- [🎯 Utilisation](#-utilisation)
+
+- [🔍 Détails des Modules](#-détails-des-modules)
+
+- [📊 Format des Résultats](#-format-des-résultats)
+
+- [🔧 Personnalisation](#-personnalisation)
+
+- [🤝 Contribution](#-contribution)
+
+- [📄 Licence](#-licence)
+
+- [👤 Auteur](#-auteur)
 
   
 
-\### 🔍 \*\*Audit Complet Multi-couches\*\*
-
-\- \*\*Système\*\* : OS, mises à jour, matériel, uptime
-
-\- \*\*Comptes\*\* : Administrateurs, invité, politiques mot de passe
-
-\- \*\*Réseau\*\* : Ports ouverts, connexions, adaptateurs
-
-\- \*\*Défense\*\* : Windows Defender, protection temps réel
+## ✨ Fonctionnalités
 
   
 
-\### ⚡ \*\*Scoring Automatisé\*\*
+### 🔍 **Audit Complet Multi-couches**
 
-\- Score par catégorie (0-100)
+- **Système** : OS, mises à jour, matériel, uptime
 
-\- Score global calculé automatiquement
+- **Comptes** : Administrateurs, invité, politiques mot de passe
 
-\- Détection des problèmes critiques
+- **Réseau** : Ports ouverts, connexions, adaptateurs
 
-\- Recommandations spécifiques
-
-  
-
-\### 📄 \*\*Génération de Rapports\*\*
-
-\- Format console détaillé avec couleurs
-
-\- Rapports texte structurés
-
-\- Rapports HTML avec design professionnel
-
-\- Historique avec timestamps
+- **Défense** : Windows Defender, protection temps réel
 
   
 
-\### 🎨 \*\*Interface Avancée\*\*
+### ⚡ **Scoring Automatisé**
 
-\- Deux modes : Menu interactif (\`main-audit.ps1\`) ou audit direct (\`audit-complet.ps1\`)
+- Score par catégorie (0-100)
 
-\- Indicateurs visuels (✅ ⚠️ ❌)
+- Score global calculé automatiquement
 
-\- Code couleur pour sévérité
+- Détection des problèmes critiques
 
-\- Pauses visuelles pour lisibilité
+- Recommandations spécifiques
 
   
 
-\## 🖥️ Prérequis
+### 📄 **Génération de Rapports**
+
+- Format console détaillé avec couleurs
+
+- Rapports texte structurés
+
+- Rapports HTML avec design professionnel
+
+- Historique avec timestamps
+
+  
+
+### 🎨 **Interface Avancée**
+
+- Deux modes : Menu interactif (`main-audit.ps1`) ou audit direct (`audit-complet.ps1`)
+
+- Indicateurs visuels (✅ ⚠️ ❌)
+
+- Code couleur pour sévérité
+
+- Pauses visuelles pour lisibilité
+
+  
+
+## 🖥️ Prérequis
 
   
 
@@ -110,75 +103,75 @@ Excellent ! Maintenant que j'ai tous vos scripts, je vais mettre à jour le READ
 
 |-----------|----------------|------------|
 
-| \*\*Système\*\* | Windows 10/11 | Windows 10 19041+ |
+| **Système** | Windows 10/11 | Windows 10 19041+ |
 
-| \*\*PowerShell\*\* | 5.1 | PowerShell 5.1+ |
+| **PowerShell** | 5.1 | PowerShell 5.1+ |
 
-| \*\*Permissions\*\* | Standard | \*\*Administrateur\*\* pour audit complet |
+| **Permissions** | Standard | **Administrateur** pour audit complet |
 
-| \*\*Espace disque\*\* | 10 MB | 100 MB pour les rapports |
-
-  
-
-\## 🚀 Installation Rapide
+| **Espace disque** | 10 MB | 100 MB pour les rapports |
 
   
 
-\### Méthode 1 : Menu Interactif (Recommandé)
+## 🚀 Installation Rapide
 
-\`\`\`powershell
+  
 
-\# 1. Démarrer PowerShell en tant qu'administrateur
+### Méthode 1 : Menu Interactif (Recommandé)
+
+```powershell
+
+# 1. Démarrer PowerShell en tant qu'administrateur
 
 #    Clic droit → Exécuter en tant qu'administrateur
 
   
 
-\# 2. Autoriser l'exécution des scripts
+# 2. Autoriser l'exécution des scripts
 
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
   
 
-\# 3. Lancer l'outil avec menu complet
+# 3. Lancer l'outil avec menu complet
 
-.\\main-audit.ps1
+.main-audit.ps1
 
-\`\`\`
-
-  
-
-\### Méthode 2 : Audit Direct
-
-\`\`\`powershell
-
-\# Pour un audit rapide sans navigation
-
-.\\audit-complet.ps1
-
-\`\`\`
+```
 
   
 
-\### Méthode 3 : Audit Spécifique
+### Méthode 2 : Audit Direct
 
-\`\`\`powershell
+```powershell
 
-\# Charger et exécuter un module spécifique
+# Pour un audit rapide sans navigation
 
-. .\\modules\\SystemAudit.ps1
+.audit-complet.ps1
+
+```
+
+  
+
+### Méthode 3 : Audit Spécifique
+
+```powershell
+
+# Charger et exécuter un module spécifique
+
+. .modulesSystemAudit.ps1
 
 Get-SystemInformation
 
-\`\`\`
+```
 
   
 
-\## 📁 Structure du Projet
+## 📁 Structure du Projet
 
   
 
-\`\`\`
+```
 
 Windows-Security-Audit-Tool/
 
@@ -210,31 +203,31 @@ Windows-Security-Audit-Tool/
 
     └── 📸 screenshots/           # Captures d'écran
 
-\`\`\`
+```
 
   
 
-\## 🎯 Utilisation
+## 🎯 Utilisation
 
   
 
-\### Menu Principal (\`main-audit.ps1\`)
+### Menu Principal (`main-audit.ps1`)
 
-\`\`\`
+```
 
-\========================================================
+========================================================
 
      WINDOWS SECURITY AUDIT TOOL v3.0
 
-\========================================================
+========================================================
 
   
 
-\========================================================
+========================================================
 
                  MAIN MENU
 
-\========================================================
+========================================================
 
   
 
@@ -258,151 +251,151 @@ Windows-Security-Audit-Tool/
 
   
 
-\========================================================
+========================================================
 
   
 
 Your choice (1-9):
 
-\`\`\`
+```
 
   
 
-\### Options Détaillées
+### Options Détaillées
 
   
 
-\#### 1. \*\*Audit Complet\*\* ✅
+#### 1. **Audit Complet** ✅
 
 Exécute les 4 audits séquentiellement avec :
 
-\- Barres de progression
+- Barres de progression
 
-\- Scores intermédiaires
+- Scores intermédiaires
 
-\- Génération automatique de rapports (TXT + HTML)
+- Génération automatique de rapports (TXT + HTML)
 
-\- Résumé final détaillé
+- Résumé final détaillé
 
   
 
-\#### 2. \*\*Audit Système Seul\*\* 🔧
+#### 2. **Audit Système Seul** 🔧
 
 Vérifications incluses :
 
-\- Version et build Windows
+- Version et build Windows
 
-\- Dernières mises à jour installées
+- Dernières mises à jour installées
 
-\- Informations matériel (RAM, fabricant)
+- Informations matériel (RAM, fabricant)
 
-\- Uptime du système
+- Uptime du système
 
-\- Vérification des privilèges admin
+- Vérification des privilèges admin
 
   
 
-\#### 3. \*\*Audit Comptes Seul\*\* 👥
+#### 3. **Audit Comptes Seul** 👥
 
 Vérifications incluses :
 
-\- Nombre d'administrateurs locaux
+- Nombre d'administrateurs locaux
 
-\- État du compte "Administrator" intégré
+- État du compte "Administrator" intégré
 
-\- État du compte "Guest"
+- État du compte "Guest"
 
-\- Politiques d'expiration des mots de passe
+- Politiques d'expiration des mots de passe
 
   
 
-\#### 4. \*\*Audit Réseau Seul\*\* 🌐
+#### 4. **Audit Réseau Seul** 🌐
 
 Vérifications incluses :
 
-\- Ports TCP en écoute
+- Ports TCP en écoute
 
-\- Détection des ports risqués (21, 23, 135, 139, 445, 3389)
+- Détection des ports risqués (21, 23, 135, 139, 445, 3389)
 
-\- Connexions réseau établies
+- Connexions réseau établies
 
-\- Adaptateurs réseau actifs
+- Adaptateurs réseau actifs
 
   
 
-\#### 5. \*\*Audit Defender Seul\*\* 🛡️
+#### 5. **Audit Defender Seul** 🛡️
 
 Vérifications incluses :
 
-\- Disponibilité de Windows Defender
+- Disponibilité de Windows Defender
 
-\- État de l'antivirus
+- État de l'antivirus
 
-\- Protection en temps réel
-
-  
-
-\#### 6. \*\*Générer Rapport HTML\*\* 📊
-
-\*Note : Les rapports sont générés automatiquement avec l'audit complet\*
+- Protection en temps réel
 
   
 
-\#### 7. \*\*Voir Rapports Existants\*\* 📂
+#### 6. **Générer Rapport HTML** 📊
+
+*Note : Les rapports sont générés automatiquement avec l'audit complet*
+
+  
+
+#### 7. **Voir Rapports Existants** 📂
 
 Liste et affiche les 10 derniers rapports générés avec :
 
-\- Nom et date
+- Nom et date
 
-\- Âge du rapport
+- Âge du rapport
 
-\- Option pour visualiser
+- Option pour visualiser
 
   
 
-\#### 8. \*\*Aide et Information\*\* ❓
+#### 8. **Aide et Information** ❓
 
 Documentation complète sur :
 
-\- Description de l'outil
+- Description de l'outil
 
-\- Fonctionnalités
+- Fonctionnalités
 
-\- Méthodologie recommandée
+- Méthodologie recommandée
 
-\- Conseils pour le portfolio
-
-  
-
-\### Audit Direct (\`audit-complet.ps1\`)
-
-\`\`\`powershell
-
-.\\audit-complet.ps1
-
-\`\`\`
-
-\*\*Avantages :\*\*
-
-\- Pas de navigation manuelle
-
-\- Rapport généré automatiquement
-
-\- Interface visuelle simplifiée
-
-\- Idéal pour automatisation
+- Conseils pour le portfolio
 
   
 
-\## 🔍 Détails des Modules
+### Audit Direct (`audit-complet.ps1`)
+
+```powershell
+
+.audit-complet.ps1
+
+```
+
+**Avantages :**
+
+- Pas de navigation manuelle
+
+- Rapport généré automatiquement
+
+- Interface visuelle simplifiée
+
+- Idéal pour automatisation
 
   
 
-\### 1. 🔧 \*\*SystemAudit.ps1\*\* - Audit Système
+## 🔍 Détails des Modules
 
   
 
-\`\`\`powershell
+### 1. 🔧 **SystemAudit.ps1** - Audit Système
+
+  
+
+```powershell
 
 function Get-SystemInformation {
 
@@ -410,39 +403,39 @@ function Get-SystemInformation {
 
 }
 
-\`\`\`
+```
 
   
 
-\*\*Vérifications :\*\*
+**Vérifications :**
 
-1\. \*\*Informations OS\*\* : Version, build, édition
+1. **Informations OS** : Version, build, édition
 
-2\. \*\*Mises à jour\*\* : Dernier hotfix installé
+2. **Mises à jour** : Dernier hotfix installé
 
-3\. \*\*Matériel\*\* : Fabricant, modèle, RAM
+3. **Matériel** : Fabricant, modèle, RAM
 
-4\. \*\*Privilèges\*\* : Vérification admin
+4. **Privilèges** : Vérification admin
 
-5\. \*\*Uptime\*\* : Temps depuis dernier démarrage
-
-  
-
-\*\*Scoring :\*\*
-
-\- -20 pts : Version OS obsolète (< build 19041)
-
-\- -15 pts : Mises à jour > 30 jours
-
-\- -10 pts : Exécution sans admin
+5. **Uptime** : Temps depuis dernier démarrage
 
   
 
-\### 2. 👥 \*\*AccountAudit.ps1\*\* - Audit Comptes
+**Scoring :**
+
+- -20 pts : Version OS obsolète (< build 19041)
+
+- -15 pts : Mises à jour > 30 jours
+
+- -10 pts : Exécution sans admin
 
   
 
-\`\`\`powershell
+### 2. 👥 **AccountAudit.ps1** - Audit Comptes
+
+  
+
+```powershell
 
 function Get-AccountSecurityAudit {
 
@@ -450,39 +443,39 @@ function Get-AccountSecurityAudit {
 
 }
 
-\`\`\`
+```
 
   
 
-\*\*Vérifications :\*\*
+**Vérifications :**
 
-1\. \*\*Administrateurs locaux\*\* : Nombre > 3 = problème
+1. **Administrateurs locaux** : Nombre > 3 = problème
 
-2\. \*\*Compte "Administrator"\*\* : Désactivation recommandée
+2. **Compte "Administrator"** : Désactivation recommandée
 
-3\. \*\*Compte "Guest"\*\* : Désactivation obligatoire
+3. **Compte "Guest"** : Désactivation obligatoire
 
-4\. \*\*Mot de passe\*\* : Expiration activée pour tous les comptes
-
-  
-
-\*\*Scoring :\*\*
-
-\- -20 pts : Plus de 3 administrateurs
-
-\- -30 pts : Compte Administrator activé
-
-\- -25 pts : Compte Guest activé
-
-\- -15 pts : Mots de passe sans expiration
+4. **Mot de passe** : Expiration activée pour tous les comptes
 
   
 
-\### 3. 🌐 \*\*NetworkAudit.ps1\*\* - Audit Réseau
+**Scoring :**
+
+- -20 pts : Plus de 3 administrateurs
+
+- -30 pts : Compte Administrator activé
+
+- -25 pts : Compte Guest activé
+
+- -15 pts : Mots de passe sans expiration
 
   
 
-\`\`\`powershell
+### 3. 🌐 **NetworkAudit.ps1** - Audit Réseau
+
+  
+
+```powershell
 
 function Get-NetworkSecurityAudit {
 
@@ -490,33 +483,33 @@ function Get-NetworkSecurityAudit {
 
 }
 
-\`\`\`
+```
 
   
 
-\*\*Vérifications :\*\*
+**Vérifications :**
 
-1\. \*\*Ports en écoute\*\* : Liste complète TCP
+1. **Ports en écoute** : Liste complète TCP
 
-2\. \*\*Ports risqués\*\* : Détection automatique (21, 23, 135, 139, 445, 3389)
+2. **Ports risqués** : Détection automatique (21, 23, 135, 139, 445, 3389)
 
-3\. \*\*Connexions établies\*\* : 10 dernières connexions
+3. **Connexions établies** : 10 dernières connexions
 
-4\. \*\*Adaptateurs réseau\*\* : État et description
-
-  
-
-\*\*Scoring :\*\*
-
-\- -5 pts par port risqué détecté
+4. **Adaptateurs réseau** : État et description
 
   
 
-\### 4. 🛡️ \*\*DefenderAudit.ps1\*\* - Audit Windows Defender
+**Scoring :**
+
+- -5 pts par port risqué détecté
 
   
 
-\`\`\`powershell
+### 4. 🛡️ **DefenderAudit.ps1** - Audit Windows Defender
+
+  
+
+```powershell
 
 function Get-DefenderSecurityAudit {
 
@@ -524,57 +517,57 @@ function Get-DefenderSecurityAudit {
 
 }
 
-\`\`\`
+```
 
   
 
-\*\*Vérifications :\*\*
+**Vérifications :**
 
-1\. \*\*Disponibilité\*\* : Module Defender accessible
+1. **Disponibilité** : Module Defender accessible
 
-2\. \*\*Antivirus\*\* : État activé/désactivé
+2. **Antivirus** : État activé/désactivé
 
-3\. \*\*Protection temps réel\*\* : État activé/désactivé
-
-  
-
-\*\*Scoring :\*\*
-
-\- Score 90 : Mode test (défaut)
-
-\- Score 40 : Antivirus ou protection désactivé
-
-\- Score 10 : Defender non accessible
+3. **Protection temps réel** : État activé/désactivé
 
   
 
-\## 📊 Format des Résultats
+**Scoring :**
+
+- Score 90 : Mode test (défaut)
+
+- Score 40 : Antivirus ou protection désactivé
+
+- Score 10 : Defender non accessible
 
   
 
-\### Sortie Console Exemple
-
-\`\`\`
-
-\=== AUDIT DES COMPTES ===
+## 📊 Format des Résultats
 
   
 
-1\. Vérification des administrateurs locaux...
+### Sortie Console Exemple
 
-   \[INFO\] 2 administrateur(s) trouvé(s)
+```
 
-   \[OK\] Nombre d'admins approprié
-
-  
-
-2\. Vérification du compte Administrateur intégré...
-
-   \[OK\] Compte Administrateur désactivé
+=== AUDIT DES COMPTES ===
 
   
 
-\=== RÉSUMÉ COMPTES ===
+1. Vérification des administrateurs locaux...
+
+   [INFO] 2 administrateur(s) trouvé(s)
+
+   [OK] Nombre d'admins approprié
+
+  
+
+2. Vérification du compte Administrateur intégré...
+
+   [OK] Compte Administrateur désactivé
+
+  
+
+=== RÉSUMÉ COMPTES ===
 
   Score sécurité comptes: 85/100
 
@@ -590,19 +583,19 @@ function Get-DefenderSecurityAudit {
 
     • Activer l'expiration des mots de passe
 
-\`\`\`
+```
 
   
 
-\### Rapport Texte (\`reports/security-audit-\*.txt\`)
+### Rapport Texte (`reports/security-audit-*.txt`)
 
-\`\`\`
+```
 
-\===========================================
+===========================================
 
      WINDOWS SECURITY AUDIT REPORT
 
-\===========================================
+===========================================
 
 Generated: 2023-12-15 14:30:25
 
@@ -610,7 +603,7 @@ Computer: DESKTOP-ABC123
 
 Audit Tool Version: 1.0
 
-\===========================================
+===========================================
 
   
 
@@ -624,11 +617,11 @@ STATUS: FAIR - Some improvements needed
 
 DETAILED FINDINGS:
 
-\==================
+==================
 
   
 
-1\. SYSTEM INFORMATION
+1. SYSTEM INFORMATION
 
    OS: Microsoft Windows 10 Professionnel
 
@@ -638,37 +631,37 @@ DETAILED FINDINGS:
 
    Security Score: 85/100
 
-\`\`\`
+```
 
   
 
-\### Rapport HTML (\`reports/security-audit-\*.html\`)
+### Rapport HTML (`reports/security-audit-*.html`)
 
 Rapport HTML avec :
 
-\- Header professionnel avec nom de la machine
+- Header professionnel avec nom de la machine
 
-\- Score global avec couleur (vert/jaune/rouge)
+- Score global avec couleur (vert/jaune/rouge)
 
-\- Sections détaillées pour chaque catégorie
+- Sections détaillées pour chaque catégorie
 
-\- Liste des problèmes et recommandations
+- Liste des problèmes et recommandations
 
-\- Design responsive et moderne
-
-  
-
-\## 🔧 Personnalisation
+- Design responsive et moderne
 
   
 
-\### Ajouter un Nouveau Vérification
+## 🔧 Personnalisation
 
-1\. \*\*Dans un module existant\*\* :
+  
 
-\`\`\`powershell
+### Ajouter un Nouveau Vérification
 
-\# Ajouter dans SystemAudit.ps1 par exemple
+1. **Dans un module existant** :
+
+```powershell
+
+# Ajouter dans SystemAudit.ps1 par exemple
 
 function Get-SystemInformation {
 
@@ -692,15 +685,15 @@ function Get-SystemInformation {
 
 }
 
-\`\`\`
+```
 
   
 
-2\. \*\*Créer un nouveau module\*\* :
+2. **Créer un nouveau module** :
 
-\`\`\`powershell
+```powershell
 
-\# Créer FirewallAudit.ps1 dans modules/
+# Créer FirewallAudit.ps1 dans modules/
 
 function Get-FirewallSecurityAudit {
 
@@ -710,15 +703,15 @@ function Get-FirewallSecurityAudit {
 
 }
 
-\`\`\`
+```
 
   
 
-\### Modifier les Scores
+### Modifier les Scores
 
-\`\`\`powershell
+```powershell
 
-\# Dans AccountAudit.ps1, ajuster les pénalités
+# Dans AccountAudit.ps1, ajuster les pénalités
 
 if ($adminCount -gt 3) {
 
@@ -728,7 +721,7 @@ if ($adminCount -gt 3) {
 
   
 
-\# Dans SystemAudit.ps1, ajuster les seuils
+# Dans SystemAudit.ps1, ajuster les seuils
 
 if ($daysSinceUpdate -gt 45) {  # Au lieu de 30
 
@@ -736,313 +729,313 @@ if ($daysSinceUpdate -gt 45) {  # Au lieu de 30
 
 }
 
-\`\`\`
+```
 
   
 
-\### Personnaliser les Rapports
+### Personnaliser les Rapports
 
-Modifier \`Reporting.ps1\` ou la fonction \`Generate-Report\` dans \`main-audit.ps1\` :
+Modifier `Reporting.ps1` ou la fonction `Generate-Report` dans `main-audit.ps1` :
 
-\- Changer les couleurs CSS
+- Changer les couleurs CSS
 
-\- Ajouter des sections supplémentaires
+- Ajouter des sections supplémentaires
 
-\- Modifier la structure des tables
+- Modifier la structure des tables
 
-\- Ajouter un logo ou en-tête personnalisé
-
-  
-
-\## ⚠️ Dépannage
+- Ajouter un logo ou en-tête personnalisé
 
   
 
-\### Erreurs Courantes
+## ⚠️ Dépannage
 
   
 
-\*\*"File cannot be loaded because running scripts is disabled"\*\*
+### Erreurs Courantes
 
-\`\`\`powershell
+  
 
-\# Exécuter en PowerShell administrateur
+**"File cannot be loaded because running scripts is disabled"**
+
+```powershell
+
+# Exécuter en PowerShell administrateur
 
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
-\`\`\`
+```
 
   
 
-\*\*"Get-LocalGroupMember : Access is denied"\*\*
+**"Get-LocalGroupMember : Access is denied"**
 
-\`\`\`powershell
+```powershell
 
-\# Relancer PowerShell en tant qu'administrateur
+# Relancer PowerShell en tant qu'administrateur
 
-\# Clic droit → Exécuter en tant qu'administrateur
+# Clic droit → Exécuter en tant qu'administrateur
 
-\`\`\`
-
-  
-
-\*\*Module non chargé\*\*
-
-\`\`\`powershell
-
-\# Vérifier le chemin des modules
-
-Test-Path .\\modules\\SystemAudit.ps1
+```
 
   
 
-\# Charger manuellement
+**Module non chargé**
 
-. .\\modules\\SystemAudit.ps1
+```powershell
+
+# Vérifier le chemin des modules
+
+Test-Path .modulesSystemAudit.ps1
+
+  
+
+# Charger manuellement
+
+. .modulesSystemAudit.ps1
 
 Get-SystemInformation
 
-\`\`\`
+```
 
   
 
-\### Amélioration des Résultats
+### Amélioration des Résultats
 
   
 
-1\. \*\*Pour des résultats complets\*\* : Toujours exécuter en admin
+1. **Pour des résultats complets** : Toujours exécuter en admin
 
-2\. \*\*Pour les rapports\*\* : Vérifier le dossier \`reports\\\`
+2. **Pour les rapports** : Vérifier le dossier `reports`
 
-3\. \*\*Pour le débogage\*\* : Consulter les messages en jaune/rouge
+3. **Pour le débogage** : Consulter les messages en jaune/rouge
 
-4\. \*\*Pour la persistance\*\* : Sauvegarder les rapports HTML
-
-  
-
-\## 🤝 Contribution
+4. **Pour la persistance** : Sauvegarder les rapports HTML
 
   
 
-\### Structure de Contribution
-
-1\. \*\*Bug fixes\*\* : Corrections d'erreurs dans les modules existants
-
-2\. \*\*Nouvelles vérifications\*\* : Ajout de contrôles de sécurité
-
-3\. \*\*Améliorations UI\*\* : Interface plus intuitive
-
-4\. \*\*Documentation\*\* : Amélioration du README ou guides
+## 🤝 Contribution
 
   
 
-\### Normes de Code
+### Structure de Contribution
 
-\- \*\*Langue\*\* : Français pour l'interface, anglais pour le code
+1. **Bug fixes** : Corrections d'erreurs dans les modules existants
 
-\- \*\*Formatage\*\* : 4 espaces, pas de tabulations
+2. **Nouvelles vérifications** : Ajout de contrôles de sécurité
 
-\- \*\*Commentaires\*\* : Expliquer la logique complexe
+3. **Améliorations UI** : Interface plus intuitive
 
-\- \*\*Noms de fonctions\*\* : Verbe-Nom en anglais (Get-, Test-, Invoke-)
+4. **Documentation** : Amélioration du README ou guides
 
   
 
-\### Tests
+### Normes de Code
+
+- **Langue** : Français pour l'interface, anglais pour le code
+
+- **Formatage** : 4 espaces, pas de tabulations
+
+- **Commentaires** : Expliquer la logique complexe
+
+- **Noms de fonctions** : Verbe-Nom en anglais (Get-, Test-, Invoke-)
+
+  
+
+### Tests
 
 Tester sur :
 
-\- Windows 10 (différents builds)
+- Windows 10 (différents builds)
 
-\- Windows 11
+- Windows 11
 
-\- Avec et sans droits administrateur
+- Avec et sans droits administrateur
 
-\- Différentes configurations réseau
-
-  
-
-\## 📄 Licence
+- Différentes configurations réseau
 
   
 
-Ce projet est sous licence \*\*MIT\*\*.
+## 📄 Licence
 
   
 
-\*\*Permissions :\*\*
-
-\- ✅ Utilisation commerciale
-
-\- ✅ Modification
-
-\- ✅ Distribution
-
-\- ✅ Utilisation privée
-
-\- ✅ Inclusion dans un portfolio
+Ce projet est sous licence **MIT**.
 
   
 
-\*\*Limitations :\*\*
+**Permissions :**
 
-\- ❌ Responsabilité
+- ✅ Utilisation commerciale
 
-\- ❌ Garantie
+- ✅ Modification
 
-\- ❌ Utilisation malveillante
+- ✅ Distribution
 
-  
+- ✅ Utilisation privée
 
-\*\*Conservation des droits d'auteur :\*\*
-
-\- L'attribution à Ayoub Aguezar doit être conservée
-
-\- Les modifications doivent être documentées
+- ✅ Inclusion dans un portfolio
 
   
 
-\## 👤 Auteur
+**Limitations :**
+
+- ❌ Responsabilité
+
+- ❌ Garantie
+
+- ❌ Utilisation malveillante
 
   
 
-\*\*Ayoub Aguezar\*\*  
+**Conservation des droits d'auteur :**
+
+- L'attribution à Ayoub Aguezar doit être conservée
+
+- Les modifications doivent être documentées
+
+  
+
+## 👤 Auteur
+
+  
+
+**Ayoub Aguezar**  
 
 Étudiant en Cybersécurité | Développeur PowerShell
 
   
 
-\### Objectifs du Projet
+### Objectifs du Projet
 
-1\. \*\*Démontrer l'expertise PowerShell\*\* : Scripting avancé, gestion système
+1. **Démontrer l'expertise PowerShell** : Scripting avancé, gestion système
 
-2\. \*\*Montrer une méthodologie d'audit\*\* : Approche structurée, reproductible
+2. **Montrer une méthodologie d'audit** : Approche structurée, reproductible
 
-3\. \*\*Créer un outil professionnel\*\* : Interface propre, rapports de qualité
+3. **Créer un outil professionnel** : Interface propre, rapports de qualité
 
-4\. \*\*Documenter un processus complet\*\* : Code, tests, documentation
-
-  
-
-\### Compétences Développées
-
-\- \*\*PowerShell Avancé\*\* : Modules, fonctions, gestion d'erreurs
-
-\- \*\*Sécurité Windows\*\* : Audit système, comptes, réseau, antivirus
-
-\- \*\*Génération de rapports\*\* : Formats texte et HTML
-
-\- \*\*Interface utilisateur\*\* : Menus interactifs, code couleur
-
-\- \*\*Gestion de projet\*\* : Structure modulaire, documentation
+4. **Documenter un processus complet** : Code, tests, documentation
 
   
 
-\### Pour le Portfolio
+### Compétences Développées
 
-1\. \*\*Inclure\*\* : Captures d'écran du menu et des rapports
+- **PowerShell Avancé** : Modules, fonctions, gestion d'erreurs
 
-2\. \*\*Expliquer\*\* : Méthodologie d'audit et critères de scoring
+- **Sécurité Windows** : Audit système, comptes, réseau, antivirus
 
-3\. \*\*Montrer\*\* : Exemples de rapports générés
+- **Génération de rapports** : Formats texte et HTML
 
-4\. \*\*Discuter\*\* : Limitations et améliorations possibles
+- **Interface utilisateur** : Menus interactifs, code couleur
 
-  
-
-\### Contact
-
-\- \*\*GitHub\*\* : \[github.com/votreusername\](https://github.com)
-
-\- \*\*Portfolio\*\* : \[votresite.com\](https://votresite.com)
-
-\- \*\*Email\*\* : email@example.com
+- **Gestion de projet** : Structure modulaire, documentation
 
   
 
-\---
+### Pour le Portfolio
+
+1. **Inclure** : Captures d'écran du menu et des rapports
+
+2. **Expliquer** : Méthodologie d'audit et critères de scoring
+
+3. **Montrer** : Exemples de rapports générés
+
+4. **Discuter** : Limitations et améliorations possibles
 
   
 
-\## 🚀 Évolution Future
+### Contact
+
+- **GitHub** : [github.com/votreusername](https://github.com)
+
+- **Portfolio** : [votresite.com](https://votresite.com)
+
+- **Email** : email@example.com
 
   
 
-\### Court Terme
-
-\- \[ \] Ajout d'audit des services Windows
-
-\- \[ \] Vérification des politiques de groupe locales
-
-\- \[ \] Audit des droits de fichiers sensibles
-
-\- \[ \] Export des résultats en JSON pour automatisation
+---
 
   
 
-\### Moyen Terme
-
-\- \[ \] Interface graphique WPF
-
-\- \[ \] Dashboard web pour visualisation
-
-\- \[ \] Comparaison historique des audits
-
-\- \[ \] Intégration avec Active Directory
+## 🚀 Évolution Future
 
   
 
-\### Long Terme
+### Court Terme
 
-\- \[ \] Version entreprise avec base de données
+- [ ] Ajout d'audit des services Windows
 
-\- \[ \] API REST pour intégration SIEM
+- [ ] Vérification des politiques de groupe locales
 
-\- \[ \] Module de correction automatique
+- [ ] Audit des droits de fichiers sensibles
 
-\- \[ \] Support multi-utilisateurs
-
-  
-
-\---
+- [ ] Export des résultats en JSON pour automatisation
 
   
 
+### Moyen Terme
 
+- [ ] Interface graphique WPF
 
+- [ ] Dashboard web pour visualisation
 
-\*\*⭐ Si ce projet vous est utile, n'hésitez pas à le star sur GitHub !\*\*
+- [ ] Comparaison historique des audits
+
+- [ ] Intégration avec Active Directory
 
   
 
-\*Dernière mise à jour : Décembre 2023 | Version : 3.0\*
+### Long Terme
+
+- [ ] Version entreprise avec base de données
+
+- [ ] API REST pour intégration SIEM
+
+- [ ] Module de correction automatique
+
+- [ ] Support multi-utilisateurs
+
+  
+
+---
 
   
 
 
 
 
-\`\`\`
+**⭐ Si ce projet vous est utile, n'hésitez pas à le star sur GitHub !**
 
   
 
-Ce README est maintenant \*\*complètement à jour\*\* avec :
+*Dernière mise à jour : Décembre 2023 | Version : 3.0*
 
   
 
-1\. \*\*Tous vos modules\*\* documentés individuellement
 
-2\. \*\*Les fonctions exactes\*\* que vous avez implémentées
 
-3\. \*\*Les scores spécifiques\*\* que vous utilisez
 
-4\. \*\*Les ports risqués\*\* que vous vérifiez
+```
 
-5\. \*\*Les messages d'erreur\*\* spécifiques
+  
 
-6\. \*\*La structure des résultats\*\* retournés par chaque module
+Ce README est maintenant **complètement à jour** avec :
 
-7\. \*\*Le module Reporting.ps1\*\* inclus dans la documentation
+  
+
+1. **Tous vos modules** documentés individuellement
+
+2. **Les fonctions exactes** que vous avez implémentées
+
+3. **Les scores spécifiques** que vous utilisez
+
+4. **Les ports risqués** que vous vérifiez
+
+5. **Les messages d'erreur** spécifiques
+
+6. **La structure des résultats** retournés par chaque module
+
+7. **Le module Reporting.ps1** inclus dans la documentation
 
   
 
