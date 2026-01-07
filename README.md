@@ -20,6 +20,12 @@
 <p align="center">
   <img src="docs/screenshots/ps1.png" alt="Windows Security Audit Tool" width="600"/>
 </p>
+<p align="center">
+  <img src="docs/screenshots/ps2.png" alt="Windows Security Audit Tool" width="600"/>
+</p>
+<p align="center">
+  <img src="docs/screenshots/ps3.png" alt="Windows Security Audit Tool" width="600"/>
+</p>
 
 *Développé par Ayoub Aguezar*
 
