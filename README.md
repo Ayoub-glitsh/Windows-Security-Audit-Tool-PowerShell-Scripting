@@ -654,8 +654,8 @@ Software Engineer | Data Engineer | Cybersecurity Analyst ( Student )
 
 ### Contact
 
-- **GitHub** : [github.com/votreusername](https://github.com/Ayoub-glitsh)
-- **Portfolio** : [votresite.com](https://gleaming-caramel-c3fadf.netlify.app/)
+- **GitHub** : [github.com/Ayoub-glitsh](https://github.com/Ayoub-glitsh)
+- **Portfolio** : [Ayoub Aguezar](https://gleaming-caramel-c3fadf.netlify.app/)
 - **Email** : ayoubaguezzar1@gmail.com
 
   
