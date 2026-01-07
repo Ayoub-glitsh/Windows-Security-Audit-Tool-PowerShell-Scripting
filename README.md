@@ -654,9 +654,9 @@ Software Engineer | Data Engineer | Cybersecurity Analyst ( Student )
 
 ### Contact
 
-- **GitHub** : [github.com/votreusername](https://github.com)
+- **GitHub** : [github.com/votreusername](https://github.com/Ayoub-glitsh)
 - **Portfolio** : [votresite.com](https://votresite.com)
-- **Email** : email@example.com
+- **Email** : ayoubaguezzar1@gmail.com
 
   
 
