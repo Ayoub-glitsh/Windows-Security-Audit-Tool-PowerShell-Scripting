@@ -1,0 +1,57 @@
+﻿===========================================
+     RAPPORT D'AUDIT DE SÉCURITÉ
+===========================================
+Date: 06/01/2026 00:09:03
+Système: DESKTOP-BM3MBS1
+Utilisateur: HP
+Outils: Windows Security Audit Tool v2.0
+
+SCORE GLOBAL: 92/100
+
+DÉTAIL DES RÉSULTATS:
+--------------------
+
+1. AUDIT SYSTÈME: /100
+   - OS: Microsoft Windows 10 Professionnel
+   - Version: 10.0.19045 (Build 19045)
+   - Mises à jour: 43 jours depuis dernière
+   - Exécution: Sans privilèges admin
+
+2. AUDIT COMPTES: 100/100
+   - État: Aucun problème détecté
+   - Note: Exécuter en admin pour vérification complète
+
+3. AUDIT RÉSEAU: 85/100  
+   - Ports ouverts: 17 ports en écoute
+   - Ports risqués détectés: 135, 139, 445
+   - Connexions actives: 10 connexions établies
+
+4. AUDIT DEFENDER: 90/100
+   - Antivirus: Actif
+   - Protection temps réel: Active
+   - Note: Version de test utilisée
+
+PROBLÈMES IDENTIFIÉS:
+---------------------
+1. Mises à jour Windows anciennes (43 jours)
+2. Ports réseau risqués ouverts (135, 139, 445)
+3. Script exécuté sans privilèges administrateur
+
+RECOMMANDATIONS:
+----------------
+1. CRITIQUE: Mettre à jour Windows immédiatement
+2. IMPORTANT: Fermer les ports 135, 139, 445 si non nécessaires
+3. RECOMMANDÉ: Exécuter cet audit en tant qu'administrateur
+4. VÉRIFIER: Configuration du pare-feu Windows
+
+NEXT STEPS:
+-----------
+- Ré-exécuter l'audit après corrections
+- Consulter la documentation CIS Benchmarks
+- Implémenter un monitoring régulier
+
+===========================================
+Ce rapport a été généré automatiquement par
+Windows Security Audit Tool pour le portfolio
+Cybersécurité de l'utilisateur.
+===========================================

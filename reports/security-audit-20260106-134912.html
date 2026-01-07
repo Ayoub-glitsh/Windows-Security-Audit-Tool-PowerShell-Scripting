@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Rapport d'Audit de Securite</title>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f5f5f5; }
+        .container { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .header { background: #2c3e50; color: white; padding: 20px; border-radius: 5px; margin-bottom: 30px; }
+        .score { font-size: 28px; font-weight: bold; padding: 20px; margin: 20px 0; border-radius: 5px; text-align: center; }
+        .good { background: #27ae60; color: white; }
+        .medium { background: #f39c12; color: white; }
+        .poor { background: #e74c3c; color: white; }
+        .section { background: #f8f9fa; padding: 20px; margin: 15px 0; border-left: 5px solid #3498db; }
+        .issue { color: #c0392b; background: #ffeaea; padding: 5px; margin: 3px 0; border-radius: 3px; }
+        .ok { color: #27ae60; }
+        .footer { margin-top: 40px; font-size: 12px; color: #7f8c8d; text-align: center; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+        th { background: #2c3e50; color: white; }
+        tr:hover { background: #f5f5f5; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Rapport d'Audit de Securite</h1>
+            <p>Date: 06/01/2026 13:49:12</p>
+            <p>Systeme: DESKTOP-BM3MBS1 | Utilisateur: HP</p>
+        </div>
+        
+        <div class="score good">
+            Score Global: 92/100
+        </div>
+        
+        <h2>Resume des Audits</h2>
+        <table>
+            <tr>
+                <th>Categorie</th>
+                <th>Score</th>
+                <th>Statut</th>
+            </tr>
+            <tr>
+                <td>Systeme</td>
+                <td>/100</td>
+                <td class="">A ameliorer</td>
+            </tr>
+            <tr>
+                <td>Comptes</td>
+                <td>100/100</td>
+                <td class="ok">OK</td>
+            </tr>
+            <tr>
+                <td>Reseau</td>
+                <td>85/100</td>
+                <td class="ok">OK</td>
+            </tr>
+            <tr>
+                <td>Defender</td>
+                <td>90/100</td>
+                <td class="ok">OK</td>
+            </tr>
+        </table>
+        
+        <div class="footer">
+            <p>Rapport genere par Windows Security Audit Tool v3.0</p>
+            <p>Projet Portfolio Cybersecurite - 2026</p>
+        </div>
+    </div>
+</body>
+</html>

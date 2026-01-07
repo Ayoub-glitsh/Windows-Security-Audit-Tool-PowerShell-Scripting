@@ -1,0 +1,31 @@
+﻿===========================================
+     RAPPORT D'AUDIT DE SECURITE
+===========================================
+
+Date: 07/01/2026 02:40:56
+Systeme: DESKTOP-BM3MBS1
+Utilisateur: HP
+Outil: Windows Security Audit Tool v3.0
+
+SCORE GLOBAL: 92/100
+
+DETAIL DES RESULTATS:
+--------------------
+
+1. AUDIT SYSTEME: /100   Problemes detectes:
+   - Mises à jour anciennes (44 jours)
+2. AUDIT COMPTES: 100/100   OK : Aucun probleme detecte
+3. AUDIT RESEAU: 85/100   Problemes detectes:
+   - Ports risqués ouverts: 135, 139, 445
+4. AUDIT DEFENDER: 90/100   Problemes detectes:
+   - Version de test - vérifications limitées
+RECOMMANDATIONS:
+----------------
+1. Mettre Ã  jour rÃ©guliÃ¨rement le systÃ¨me
+2. RÃ©viser les comptes administrateurs
+3. Fermer les ports rÃ©seau non essentiels
+4. Maintenir l'antivirus Ã  jour
+5. ExÃ©cuter des audits de sÃ©curitÃ© rÃ©guliers
+
+===========================================
+Fin du rapport
