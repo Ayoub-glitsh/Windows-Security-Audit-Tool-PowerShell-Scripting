@@ -50,11 +50,8 @@
 ### 🔍 **Audit Complet Multi-couches**
 
 - **Système** : OS, mises à jour, matériel, uptime
-
 - **Comptes** : Administrateurs, invité, politiques mot de passe
-
 - **Réseau** : Ports ouverts, connexions, adaptateurs
-
 - **Défense** : Windows Defender, protection temps réel
 
   
@@ -62,11 +59,8 @@
 ### ⚡ **Scoring Automatisé**
 
 - Score par catégorie (0-100)
-
 - Score global calculé automatiquement
-
 - Détection des problèmes critiques
-
 - Recommandations spécifiques
 
   
@@ -74,11 +68,8 @@
 ### 📄 **Génération de Rapports**
 
 - Format console détaillé avec couleurs
-
 - Rapports texte structurés
-
 - Rapports HTML avec design professionnel
-
 - Historique avec timestamps
 
   
@@ -86,30 +77,21 @@
 ### 🎨 **Interface Avancée**
 
 - Deux modes : Menu interactif (`main-audit.ps1`) ou audit direct (`audit-complet.ps1`)
-
 - Indicateurs visuels (✅ ⚠️ ❌)
-
 - Code couleur pour sévérité
-
 - Pauses visuelles pour lisibilité
 
   
 
 ## 🖥️ Prérequis
 
-  
+| Composant         | Version minimale      | Version recommandée                |
+|-------------------|-----------------------|------------------------------------|
+| **Système**       | Windows 10 / 11       | Windows 10 (build 19041+)          |
+| **PowerShell**    | 5.1                   | PowerShell 5.1 ou supérieur        |
+| **Permissions**   | Utilisateur standard  | **Administrateur** (audit complet) |
+| **Espace disque** | 10 Mo                 | 100 Mo (rapports et logs)          |
 
-| Composant | Version Minimum | Recommandé |
-
-|-----------|----------------|------------|
-
-| **Système** | Windows 10/11 | Windows 10 19041+ |
-
-| **PowerShell** | 5.1 | PowerShell 5.1+ |
-
-| **Permissions** | Standard | **Administrateur** pour audit complet |
-
-| **Espace disque** | 10 MB | 100 MB pour les rapports |
 
   
 
