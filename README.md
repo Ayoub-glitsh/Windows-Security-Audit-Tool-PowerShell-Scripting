@@ -627,7 +627,7 @@ Ce projet est sous licence **MIT**.
   
 
 **Ayoub Aguezar**  
-Étudiant en Cybersécurité | Développeur PowerShell
+Software Engineer | Data Engineer | Cybersecurity Analyst ( Student )
 
   
 
@@ -650,14 +650,7 @@ Ce projet est sous licence **MIT**.
 
   
 
-### Pour le Portfolio
 
-1. **Inclure** : Captures d'écran du menu et des rapports
-2. **Expliquer** : Méthodologie d'audit et critères de scoring
-3. **Montrer** : Exemples de rapports générés
-4. **Discuter** : Limitations et améliorations possibles
-
-  
 
 ### Contact
 
@@ -668,45 +661,6 @@ Ce projet est sous licence **MIT**.
   
 
 ---
-
-  
-
-## 🚀 Évolution Future
-
-  
-
-### Court Terme
-
-- [ ] Ajout d'audit des services Windows
-- [ ] Vérification des politiques de groupe locales
-- [ ] Audit des droits de fichiers sensibles
-- [ ] Export des résultats en JSON pour automatisation
-
-  
-
-### Moyen Terme
-
-- [ ] Interface graphique WPF
-- [ ] Dashboard web pour visualisation
-- [ ] Comparaison historique des audits
-- [ ] Intégration avec Active Directory
-
-  
-
-### Long Terme
-
-- [ ] Version entreprise avec base de données
-- [ ] API REST pour intégration SIEM
-- [ ] Module de correction automatique
-- [ ] Support multi-utilisateurs
-
-  
----
-
-  
-
-
-
 
 **⭐ Si ce projet vous est utile, n'hésitez pas à le star sur GitHub !**
 
