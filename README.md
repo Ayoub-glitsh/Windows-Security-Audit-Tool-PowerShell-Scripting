@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=800&color=36BCF7&center=true&vCenter=true&width=520&lines=Windows+Security+Audit+Tool" />
+</p>
 
 
 # 🛡️ Windows Security Audit Tool
