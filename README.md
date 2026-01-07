@@ -20,25 +20,15 @@
 ## 📋 Table des Matières
 
 - [✨ Fonctionnalités](#-fonctionnalités)
-
 - [🖥️ Prérequis](#️-prérequis)
-
 - [🚀 Installation Rapide](#-installation-rapide)
-
 - [📁 Structure du Projet](#-structure-du-projet)
-
 - [🎯 Utilisation](#-utilisation)
-
 - [🔍 Détails des Modules](#-détails-des-modules)
-
 - [📊 Format des Résultats](#-format-des-résultats)
-
 - [🔧 Personnalisation](#-personnalisation)
-
 - [🤝 Contribution](#-contribution)
-
 - [📄 Licence](#-licence)
-
 - [👤 Auteur](#-auteur)
 
   
@@ -102,23 +92,14 @@
 ### Méthode 1 : Menu Interactif (Recommandé)
 
 ```powershell
-
 # 1. Démarrer PowerShell en tant qu'administrateur
-
-#    Clic droit → Exécuter en tant qu'administrateur
-
-  
+# Clic droit → Exécuter en tant qu'administrateur
 
 # 2. Autoriser l'exécution des scripts
-
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
-  
-
 # 3. Lancer l'outil avec menu complet
-
 .main-audit.ps1
-
 ```
 
   
@@ -126,11 +107,8 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ### Méthode 2 : Audit Direct
 
 ```powershell
-
 # Pour un audit rapide sans navigation
-
 .audit-complet.ps1
-
 ```
 
   
@@ -138,20 +116,14 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ### Méthode 3 : Audit Spécifique
 
 ```powershell
-
 # Charger et exécuter un module spécifique
-
 . .modulesSystemAudit.ps1
-
 Get-SystemInformation
-
 ```
 
   
 
 ## 📁 Structure du Projet
-
-  
 
 ```
 
