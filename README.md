@@ -126,37 +126,21 @@ Get-SystemInformation
 ## 📁 Structure du Projet
 
 ```
-
 Windows-Security-Audit-Tool/
-
 ├── 📜 main-audit.ps1              # Script principal avec menu interactif (v3.0)
-
 ├── 📜 audit-complet.ps1           # Script d'audit complet automatique
-
 ├── 📁 modules/                    # Modules d'audit spécialisés
-
 │   ├── 🔧 SystemAudit.ps1        # Audit système et matériel
-
 │   ├── 👥 AccountAudit.ps1       # Audit comptes et politiques
-
 │   ├── 🌐 NetworkAudit.ps1       # Audit ports et réseau
-
+│   ├── 📜 Reporting.ps1        # Module de génération de rapports
 │   └── 🛡️ DefenderAudit.ps1     # Audit Windows Defender
-
-├── 📜 Reporting.ps1              # Module de génération de rapports
-
 ├── 📁 reports/                   # Rapports générés (auto-créé)
-
 │   ├── 📄 security-audit-YYYYMMDD-HHMMSS.txt
-
 │   └── 🌐 security-audit-YYYYMMDD-HHMMSS.html
-
 ├── 📁 logs/                      # Logs d'exécution (auto-créé)
-
 └── 📁 doc/                       # Documentation
-
     └── 📸 screenshots/           # Captures d'écran
-
 ```
 
   
